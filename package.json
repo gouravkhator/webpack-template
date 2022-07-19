@@ -1,15 +1,12 @@
 {
   "name": "webpack-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "A template repo for webpack",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve",
     "build": "NODE_ENV='production' webpack"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.4",
@@ -21,5 +18,11 @@
     "webpack": "^5.34.0",
     "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^3.11.2"
-  }
+  },
+  "keywords": [
+    "webpack",
+    "template"
+  ],
+  "author": "Gourav Khator",
+  "license": "Apache-2.0"
 }
